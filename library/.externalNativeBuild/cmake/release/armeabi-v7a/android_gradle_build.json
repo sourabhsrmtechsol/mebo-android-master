@@ -1,0 +1,81 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/sourabh/mebo-android-master/mebo-android-master/library/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Sourabh.Mishra1\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\sourabh\\mebo-android-master\\mebo-android-master\\library\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"avcodec-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avcodec-lib",
+			"buildType" : "release",
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/jniLibs/armeabi-v7a/libavcodec-57.so",
+			"toolchain" : "470256665"
+		},
+		"avformat-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avformat-lib",
+			"buildType" : "release",
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/jniLibs/armeabi-v7a/libavformat-57.so",
+			"toolchain" : "470256665"
+		},
+		"avutil-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "avutil-lib",
+			"buildType" : "release",
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/jniLibs/armeabi-v7a/libavutil-55.so",
+			"toolchain" : "470256665"
+		},
+		"rtsp-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "rtsp",
+			"buildCommand" : "C:\\Users\\Sourabh.Mishra1\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\sourabh\\mebo-android-master\\mebo-android-master\\library\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target rtsp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi22 --gcc-toolchain=C:/Users/Sourabh.Mishra1/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Sourabh.Mishra1/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Drtsp_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/sourabh/mebo-android-master/mebo-android-master/library/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/build/intermediates/cmake/release/obj/armeabi-v7a/librtsp.so",
+			"toolchain" : "470256665"
+		},
+		"swresample-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swresample-lib",
+			"buildType" : "release",
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/jniLibs/armeabi-v7a/libswresample-2.so",
+			"toolchain" : "470256665"
+		},
+		"swscale-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "swscale-lib",
+			"buildType" : "release",
+			"output" : "E:/sourabh/mebo-android-master/mebo-android-master/library/src/main/jniLibs/armeabi-v7a/libswscale-4.so",
+			"toolchain" : "470256665"
+		}
+	},
+	"toolchains" : 
+	{
+		"470256665" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Sourabh.Mishra1/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Sourabh.Mishra1/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
